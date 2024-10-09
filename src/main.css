@@ -1,0 +1,163 @@
+:root {
+  /*Dark mode*/
+  --dark-bg: rgba(240,185,190,0.113);
+  --dark-layer1: 255,255,255;
+  --dark-flyout: rgb(30,30,30);
+  --dark-select: 255,255,255;
+  --dark-accent: rgb(76, 194, 255);
+  --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
+  --dark-accent-font-color: black;
+  --dark-button: rgb(45,45,45);
+  --dark-button-border: rgb(60, 60, 60);
+  --dark-button-font-color: white;
+  --dark-dm-about: rgba(0,0,0,0.4);
+
+  /*Light mode*/
+  --light-bg: transparent;
+  --light-layer1: 0,0,0;
+  --light-flyout: rgb(255, 255, 255);
+  --light-select: 0,0,0;
+  --light-accent: rgb(0, 120, 212);
+  --light-accent-hovered: rgb(0, 94, 167); /*also disabled button*/
+  --light-accent-font-color: white;
+  --light-button: rgb(251,251,251);
+  --light-button-border: rgb(204, 204, 231);
+  --light-button-font-color: black;
+  --light-dm-about: rgba(255,255,255,0.35);
+  }
+
+.theme-dark { 
+  --app-bg: var(--dark-bg); /* I dont really know the exact value of Mica material. I just tuning it myself to get most similar Mica looking. If you know the exact value feel free to create a pull request*/
+  
+  /*Layer 1*/
+  --activity-card-background: rgba(var(--dark-layer1),0.05); 
+  --background-secondary-alt: rgba(var(--dark-layer1),0.05);
+  --input-background: rgba(var(--dark-layer1),0.05);
+  --background-secondary: rgba(var(--dark-layer1),0.05);
+  --background-tertiary: rgba(var(--dark-layer1),0.06);
+  --channeltextarea-background: rgba(var(--dark-layer1),0.05);
+  /*Flyout*/
+  --background-floating: var(--dark-flyout); 
+
+  /*Select or hover*/
+  --layer1: var(--dark-layer1);
+  --flyout: var(--dark-flyout);
+  --background-modifier-selected: rgba(var(--dark-select),0.07);
+  --background-modifier-active: rgba(var(--dark-select),0.07);
+  --background-modifier-hover: rgba(var(--dark-select),0.05);
+
+  /*variables*/
+  --accent: var(--dark-accent);
+  --accent-hovered: var(--dark-accent-hovered);
+  --accent-font: var(--dark-accent-font-color);
+  --button: var(--dark-button);
+  --button-border: var(--dark-button-border);
+  --button-font-color: var(--dark-button-font-color);
+  --dm-about: var(--dark-dm-about);
+} 
+.theme-light {
+  --app-bg: var(--light-bg); 
+
+  /* Layer 1 */
+  --activity-card-background: rgba(var(--light-layer1), 0.1);
+  --background-secondary-alt: rgba(var(--light-layer1), 0.1);
+  --input-background: rgba(var(--light-layer1), 0.1);
+  --background-secondary: rgba(var(--light-layer1), 0.1);
+  --background-tertiary: rgba(var(--light-layer1), 0.1);
+  --channeltextarea-background: rgba(var(--light-layer1), 0.1);
+
+  /* Flyout */
+  --background-floating: var(--light-flyout);
+
+  /* Select or hover */
+  --layer1: var(--light-layer1);
+  --flyout: var(--light-flyout);
+  --background-modifier-selected: rgba(var(--light-select), 0.07);
+  --background-modifier-active: rgba(var(--light-select), 0.07);
+  --background-modifier-hover: rgba(var(--light-select), 0.05);
+
+  /* Variables */
+  --accent: var(--light-accent);
+  --accent-hovered: var(--light-accent-hovered);
+  --accent-font: var(--light-accent-font-color);
+  --button: var(--light-button);
+  --button-border: var(--light-button-border);
+  --button-font-color: var(--light-button-font-color);
+  --dm-about: var(--light-dm-about);
+}
+
+.app_a01fb1,
+.bg_d4b6c5,
+.appMount_ea7e65,
+.wrapper_fea3ef,
+.containerDefault_f6f816,
+.messageContainer_ddb5b4, .channelHeader_f3978e, .messages_c06487,
+.scroller_c47fa9, .privateChannels_f0963d, /*DMs Sidebar*/
+.themed_fc4f04, .nowPlayingColumn_c2739c, /*DMs misc*/
+#app-mount .container_ee69e0, .sidebar_a4d4d9 /*Server Sidebar*/,
+.panels_a4d4d9, .container_b2ca13 /*User Profile*/,
+.footer_aa1bff /*Discovery*/,
+.sidebarRegionScroller_c25c6d /*Settings*/, 
+.fieldList_b69b77 {
+  background-color: transparent !important;
+}
+
+/*Buttons*/
+.lookFilled_dd4f85.colorBrand_dd4f85 {
+  background-color: var(--accent);
+  color: var(--accent-font);
+}
+.lookFilled_dd4f85.colorBrand_dd4f85:hover {
+  background-color: var(--accent-hovered);
+}
+.lookFilled_dd4f85.colorBrand_dd4f85:disabled{
+  background-color: var(--accent-hovered);
+}
+.lookFilled_dd4f85.colorPrimary_dd4f85, .lookFilled_dd4f85.colorPrimary_dd4f85:disabled {
+  background-color: var(--button);
+  color: var(--button-font-color);
+  border: solid var(--button-border) 1.5px;
+}
+
+/*Toggle*/
+.container_cebd1c.checked_cebd1c{
+  background-color: var(--accent) !important;
+}
+.container_cebd1c.checked_cebd1c:hover{
+  background-color: var(--accent-hovered) !important;
+}
+
+/*Special Flyout*/
+.messagesPopoutWrap_ac90a2,
+.container_f1c3d9,
+.container_f8a938 {
+  background-color: var(--flyout);
+}
+
+/*Thread*/
+.container_d1c246{
+  background-color: rgba(var(--layer1),0.05);
+}
+
+/*Misc*/
+.overlayBackground_c69a7b {
+  background-color: var(--dm-about);
+}
+.resizeHandle_d1c246 {
+  width: 0px;
+}
+
+
+/*meow*/
+:root {
+  --background-primary: transparent;
+  --custom-channel-members-bg: transparent;
+  --bg-base-primary: transparent;
+  --home-background: transparent;
+  --scrollbar-auto-track: transparent;
+  --deprecated-store-bg: transparent;
+}
+
+body{
+  background-color: var(--app-bg);
+}
