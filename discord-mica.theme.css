@@ -1,0 +1,32 @@
+/**
+ * @name Discord Mica
+ * @version 1.0
+ * @description Discord with mica :)
+ * @author Coolkie
+ *
+ * @website http://github.com/PL7963/
+ * @source https://github.com/PL7963/Discord-Mica/blob/main/src/main.css
+ * @invite mh5Tzm43m9
+ */
+
+@import url("https://discord-mica.pages.dev/src/main.css");
+
+ :root {
+  /*Dark mode*/
+  --dark-bg: rgba(240,185,190,0.113);
+  --dark-accent: rgb(76, 194, 255);
+  --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
+  --dark-accent-font-color: black;
+  --dark-button: rgb(45,45,45);
+  --dark-button-border: rgb(60, 60, 60);
+  --dark-button-font-color: white;
+
+  /*Light mode*/
+  --light-bg: transparent;
+  --light-accent: rgb(0, 120, 212);
+  --light-accent-hovered: rgb(0, 94, 167); /*also disabled button*/
+  --light-accent-font-color: white;
+  --light-button: rgb(251,251,251);
+  --light-button-border: rgb(204, 204, 231);
+  --light-button-font-color: black;
+  }
