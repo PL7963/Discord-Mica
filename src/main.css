@@ -1,6 +1,6 @@
 :root {
   /*Dark mode*/
-  --dark-bg: rgba(240,185,190,0.113);
+  --dark-bg: transparent;
   --dark-layer1: 255,255,255;
   --dark-flyout: rgb(30,30,30);
   --dark-select: 255,255,255;
