@@ -1,17 +1,17 @@
 <div align=center>
 <img alt="I chose wrong backdrop type when I was writing this theme. So picture you see is actually Mica tabbed not Mica" src="https://github.com/user-attachments/assets/2f65dca2-481f-4bc3-9dcd-0f6282cb4e37" />
-  
+
 # Discord Mica
 </div>
 
 #### Discord Mica focus on brining Mica material and WinUI 3 standard to Discord. Also keeping Discord aesthetic at the same time. Without fancy animations or overwhelming colorful background. Provide just enough customization.
 
 ## Requirement
-* ![BetterDiscord](https://betterdiscord.app/) (You should know this one)
+* ![BetterDiscord](https://betterdiscord.app/) or ![Vencord](https://github.com/Vendicated/Vencord) (You should know this one)
 * ![MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) (For Mica backdrop)
 
 ## Get Started
-1. Patch your Discord with BetterDiscord
+1. Patch your Discord with BetterDiscord or Vencord
 2. Add Discord process to MicaForEveryone and set backdrop type to Mica
 3. Enable transparency in BetterDiscord settings
 
