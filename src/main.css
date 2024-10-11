@@ -116,7 +116,7 @@
 .lookFilled_dd4f85.colorPrimary_dd4f85, .lookFilled_dd4f85.colorPrimary_dd4f85:disabled {
   background-color: var(--button);
   color: var(--button-font-color);
-  border: solid var(--button-border) 1.5px;
+  outline: solid var(--button-border) 1.5px;
 }
 
 /*Toggle*/
@@ -130,7 +130,11 @@
 /*Special Flyout*/
 .messagesPopoutWrap_ac90a2,
 .container_f1c3d9,
-.container_f8a938 {
+.container_f8a938,
+.contentWrapper_af5dbb,
+.header_b56bbc,
+.wrapper_e06857,
+.wrapper_ba23fe {
   background-color: var(--flyout);
 }
 
@@ -146,7 +150,10 @@
 .resizeHandle_d1c246 {
   width: 0px;
 }
-
+.container_c64476 { /*Serverr Activity Status*/
+    background-color: rgba(var(--dark-layer1),0.05);
+    outline: solid 1px rgba(255,255,255,0.1);
+}
 
 /*meow*/
 :root {
