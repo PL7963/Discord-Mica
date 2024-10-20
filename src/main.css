@@ -98,7 +98,8 @@
 .panels_a4d4d9, .container_b2ca13 /*User Profile*/,
 .footer_aa1bff /*Discovery*/,
 .sidebarRegionScroller_c25c6d /*Settings*/, 
-.fieldList_b69b77 {
+.fieldList_b69b77,
+.theme-light .children_fc4f04:after {
   background-color: transparent !important;
 }
 
@@ -134,13 +135,17 @@
 .contentWrapper_af5dbb,
 .header_b56bbc,
 .wrapper_e06857,
-.wrapper_ba23fe {
+.wrapper_ba23fe,
+.popout_f6639d {
   background-color: var(--flyout);
 }
 
 /*Thread*/
 .container_d1c246{
   background-color: rgba(var(--layer1),0.05);
+}
+.floating_d1c246 {
+  backdrop-filter: brightness(0.65) blur(16px) saturate(1.5);
 }
 
 /*Misc*/
