@@ -138,7 +138,8 @@
 .wrapper_ba23fe,
 .popout_f6639d,
 .wrapper_c6ee36,
-.quickswitcher_f4e139 {
+.quickswitcher_f4e139,
+.vc-notification-root {
   background-color: var(--flyout);
 }
 
