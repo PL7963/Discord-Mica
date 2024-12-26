@@ -11,6 +11,7 @@
   --dark-button-border: rgb(60, 60, 60);
   --dark-button-font-color: white;
   --dark-dm-about: rgba(0,0,0,0.4);
+  --dark-background-accent: rgba(50,50,50,0.9);
 
   /*Light mode*/
   --light-bg: transparent;
@@ -24,6 +25,7 @@
   --light-button-border: rgb(204, 204, 231);
   --light-button-font-color: black;
   --light-dm-about: rgba(255,255,255,0.35);
+  --light-background-accent: rgba(160,160,160,0.9);
   }
 
 .theme-dark { 
@@ -54,6 +56,7 @@
   --button-border: var(--dark-button-border);
   --button-font-color: var(--dark-button-font-color);
   --dm-about: var(--dark-dm-about);
+  --background-accent: var(--dark-background-accent);
 } 
 .theme-light {
   --app-bg: var(--light-bg); 
@@ -84,6 +87,7 @@
   --button-border: var(--light-button-border);
   --button-font-color: var(--light-button-font-color);
   --dm-about: var(--light-dm-about);
+  --background-accent: var(--light-background-accent);
 }
 
 .app_a01fb1,
