@@ -19,6 +19,7 @@
   --dark-button: rgb(45,45,45);
   --dark-button-border: rgb(60, 60, 60);
   --dark-button-font-color: white;
+  --dark-background-accent: rgba(50,50,50,0.9);
 
   /*Light mode*/
   --light-bg: transparent;
@@ -28,4 +29,5 @@
   --light-button: rgb(251,251,251);
   --light-button-border: rgb(204, 204, 231);
   --light-button-font-color: black;
+  --light-background-accent: rgba(160,160,160,0.9);
   }
