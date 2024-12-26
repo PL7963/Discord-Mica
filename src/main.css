@@ -140,7 +140,8 @@
 .wrapper_c6ee36,
 .quickswitcher_f4e139,
 .vc-notification-root,
-.container_f2bfbb, .reactors_f2bfbb {
+.container_f2bfbb, .reactors_f2bfbb,
+.emojiRow_dc1809 .emojiAliasInput_dc1809 .emojiInput_dc1809 {
   background-color: var(--flyout);
 }
 
@@ -166,6 +167,12 @@
 .scroller_f4e139 { /*Global search*/
   border-radius: 5px;
   margin-right: 0px;
+}
+.form_a7d72e {
+  margin-top: 0;
+}
+.jumpToPresentBar_cf58b5 {
+  padding-bottom: 0;
 }
 
 /*meow*/
