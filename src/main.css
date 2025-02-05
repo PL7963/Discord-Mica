@@ -28,7 +28,7 @@
   --light-background-accent: rgba(160,160,160,0.9);
   }
 
-.theme-dark { 
+.visual-refresh.theme-dark { 
   --app-bg: var(--dark-bg); /* I dont really know the exact value of Mica material. I just tuning it myself to get most similar Mica looking. If you know the exact value feel free to create a pull request*/
   
   /*Layer 1*/
@@ -58,7 +58,7 @@
   --dm-about: var(--dark-dm-about);
   --background-accent: var(--dark-background-accent);
 } 
-.theme-light {
+.visual-refresh.theme-light{
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
@@ -94,18 +94,29 @@
 .bg__960e4,
 .appMount__51fd7,
 .wrapper_ef3116,
-.containerDefault_c69b6d,
-.messageContainer__95796, .channelHeader__35a7e, .messages__1ccd1,
+.visual-refresh .chat_f75fb0,
+.chatContent_f75fb0, /*Server Chat*/
 .scroller__99e7c, .privateChannels__35e86, /*DMs Sidebar*/
 .themed__9293f, .nowPlayingColumn__133bf, /*DMs misc*/
+.visual-refresh .tabBody__133bf, 
+.container__7d20c,
+.container__133bf,
 #app-mount .container__2637a, .sidebar_c48ade /*Server Sidebar*/,
+.visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
+:where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
 .panels_c48ade, .container__37e49 /*User Profile*/,
+.visual-refresh .sidebar_c48ade:after,
 .footer__214dc /*Discovery*/,
 .sidebarRegionScroller__23e6b /*Settings*/, 
 .fieldList__1fed1,
 .children__9293f:after {
   background-color: transparent !important;
   background: transparent !important;
+}
+
+/*Server*/
+.visual-refresh .channelTextArea_f75fb0 {
+  background-color: var(--channeltextarea-background);
 }
 
 /*Buttons*/
@@ -150,7 +161,7 @@
 }
 
 /*Thread*/
-.container__01ae2{
+.container__01ae {
   background-color: rgba(var(--layer1),0.05);
 }
 .floating__01ae2 {
@@ -178,6 +189,11 @@
 .jumpToPresentBar__0f481 {
   padding-bottom: 0;
 }
+.itemCard__7e549 {
+  --rgb: 255, 255, 255;
+  --activity-card-background1: rgba(var(--rgb),0.5);
+  background-color: var(--activity-card-background);
+} 
 
 /*meow*/
 :root {
