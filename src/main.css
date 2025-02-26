@@ -178,6 +178,12 @@
 .jumpToPresentBar__0f481 {
   padding-bottom: 0;
 }
+.lottieIcon__5eb9b.buttonIcon_e131a9 { /* VoiceChat Soundboard icon */
+    --__lottieIconColor: white !important;
+}
+.container_e131a9 { /* VoiceChat border radius */
+    border-radius: 8px;
+}
 
 /*meow*/
 :root {
