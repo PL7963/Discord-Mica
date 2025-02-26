@@ -29,15 +29,17 @@
   }
 
 .visual-refresh.theme-dark { 
-  --app-bg: var(--dark-bg); /* I dont really know the exact value of Mica material. I just tuning it myself to get most similar Mica looking. If you know the exact value feel free to create a pull request*/
+  --app-bg: var(--dark-bg);
   
   /*Layer 1*/
-  --activity-card-background: rgba(var(--dark-layer1),0.05); 
+  --background-surface-high: rgba(var(--dark-layer1),0.05); /* Activity Card */
   --background-secondary-alt: rgba(var(--dark-layer1),0.05);
   --input-background: rgba(var(--dark-layer1),0.05);
   --background-secondary: rgba(var(--dark-layer1),0.05);
   --background-tertiary: rgba(var(--dark-layer1),0.06);
   --channeltextarea-background: rgba(var(--dark-layer1),0.05);
+  --bg-mod-subtle: rgba(var(--dark-layer1),0.1);
+
   /*Flyout*/
   --background-floating: var(--dark-flyout); 
 
@@ -62,12 +64,14 @@
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
-  --activity-card-background: rgba(var(--light-layer1), 0.1);
+  --background-surface-high: rgba(var(--light-layer1), 0.1); /* Activity Card */
+  --background-primary: rgba(var(--light-layer1),0.1);
   --background-secondary-alt: rgba(var(--light-layer1), 0.1);
   --input-background: rgba(var(--light-layer1), 0.1);
   --background-secondary: rgba(var(--light-layer1), 0.1);
   --background-tertiary: rgba(var(--light-layer1), 0.1);
   --channeltextarea-background: rgba(var(--light-layer1), 0.1);
+  --bg-mod-subtle: rgba(var(--light-layer1),0.1);
 
   /* Flyout */
   --background-floating: var(--light-flyout);
@@ -189,11 +193,6 @@
 .jumpToPresentBar__0f481 {
   padding-bottom: 0;
 }
-.itemCard__7e549 {
-  --rgb: 255, 255, 255;
-  --activity-card-background1: rgba(var(--rgb),0.5);
-  background-color: var(--activity-card-background);
-} 
 
 /*meow*/
 :root {
