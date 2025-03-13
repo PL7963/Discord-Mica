@@ -15,7 +15,7 @@
 
   /*Light mode*/
   --light-bg: transparent;
-  --light-layer1: 0,0,0;
+  --light-layer1: 255,255,255;
   --light-flyout: rgb(255, 255, 255);
   --light-select: 0,0,0;
   --light-accent: rgb(0, 120, 212);
@@ -64,14 +64,15 @@
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
-  --background-surface-high: rgba(var(--light-layer1), 0.1); /* Activity Card */
+  --background-surface-high: rgba(var(--light-layer1), 0.7); /* Activity Card */
+  --background-surface-higher: rgba(var(--light-layer1), 0.4);
   --background-primary: rgba(var(--light-layer1),0.1);
   --background-secondary-alt: rgba(var(--light-layer1), 0.1);
-  --input-background: rgba(var(--light-layer1), 0.1);
-  --background-secondary: rgba(var(--light-layer1), 0.1);
-  --background-tertiary: rgba(var(--light-layer1), 0.1);
-  --channeltextarea-background: rgba(var(--light-layer1), 0.1);
-  --bg-mod-subtle: rgba(var(--light-layer1),0.1);
+  --input-background: rgba(var(--light-layer1), 0.7); 
+  --background-secondary: rgba(var(--light-layer1), 0.7);
+  --background-tertiary: rgba(var(--light-layer1), 0.7);
+  --channeltextarea-background: rgba(var(--light-layer1), 0.4);
+  --bg-mod-subtle: rgba(0,0,0,0.1);
 
   /* Flyout */
   --background-floating: var(--light-flyout);
