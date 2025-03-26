@@ -15,7 +15,7 @@
 
   /*Light mode*/
   --light-bg: transparent;
-  --light-layer1: 0,0,0;
+  --light-layer1: 255,255,255;
   --light-flyout: rgb(255, 255, 255);
   --light-select: 0,0,0;
   --light-accent: rgb(0, 120, 212);
@@ -28,16 +28,18 @@
   --light-background-accent: rgba(160,160,160,0.9);
   }
 
-.theme-dark { 
-  --app-bg: var(--dark-bg); /* I dont really know the exact value of Mica material. I just tuning it myself to get most similar Mica looking. If you know the exact value feel free to create a pull request*/
+.visual-refresh.theme-dark { 
+  --app-bg: var(--dark-bg);
   
   /*Layer 1*/
-  --activity-card-background: rgba(var(--dark-layer1),0.05); 
+  --background-surface-high: rgba(var(--dark-layer1),0.05); /* Activity Card */
   --background-secondary-alt: rgba(var(--dark-layer1),0.05);
   --input-background: rgba(var(--dark-layer1),0.05);
   --background-secondary: rgba(var(--dark-layer1),0.05);
   --background-tertiary: rgba(var(--dark-layer1),0.06);
   --channeltextarea-background: rgba(var(--dark-layer1),0.05);
+  --bg-mod-subtle: rgba(var(--dark-layer1),0.1);
+
   /*Flyout*/
   --background-floating: var(--dark-flyout); 
 
@@ -58,16 +60,19 @@
   --dm-about: var(--dark-dm-about);
   --background-accent: var(--dark-background-accent);
 } 
-.theme-light {
+.visual-refresh.theme-light{
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
-  --activity-card-background: rgba(var(--light-layer1), 0.1);
+  --background-surface-high: rgba(var(--light-layer1), 0.7); /* Activity Card */
+  --background-surface-higher: rgba(var(--light-layer1), 0.4);
+  --background-primary: rgba(var(--light-layer1),0.1);
   --background-secondary-alt: rgba(var(--light-layer1), 0.1);
-  --input-background: rgba(var(--light-layer1), 0.1);
-  --background-secondary: rgba(var(--light-layer1), 0.1);
-  --background-tertiary: rgba(var(--light-layer1), 0.1);
-  --channeltextarea-background: rgba(var(--light-layer1), 0.1);
+  --input-background: rgba(var(--light-layer1), 0.7); 
+  --background-secondary: rgba(var(--light-layer1), 0.7);
+  --background-tertiary: rgba(var(--light-layer1), 0.7);
+  --channeltextarea-background: rgba(var(--light-layer1), 0.4);
+  --bg-mod-subtle: rgba(0,0,0,0.1);
 
   /* Flyout */
   --background-floating: var(--light-flyout);
@@ -94,18 +99,29 @@
 .bg__960e4,
 .appMount__51fd7,
 .wrapper_ef3116,
-.containerDefault_c69b6d,
-.messageContainer__95796, .channelHeader__35a7e, .messages__1ccd1,
+.visual-refresh .chat_f75fb0,
+.chatContent_f75fb0, /*Server Chat*/
 .scroller__99e7c, .privateChannels__35e86, /*DMs Sidebar*/
 .themed__9293f, .nowPlayingColumn__133bf, /*DMs misc*/
+.visual-refresh .tabBody__133bf, 
+.container__7d20c,
+.container__133bf,
 #app-mount .container__2637a, .sidebar_c48ade /*Server Sidebar*/,
+.visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
+:where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
 .panels_c48ade, .container__37e49 /*User Profile*/,
+.visual-refresh .sidebar_c48ade:after,
 .footer__214dc /*Discovery*/,
-.sidebarRegionScroller__23e6b /*Settings*/, 
+.visual-refresh .contentRegionScroller__23e6b, .visual-refresh .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b, .contentRegion__23e6b, .layer__960e4 /*Settings*/, 
 .fieldList__1fed1,
 .children__9293f:after {
   background-color: transparent !important;
   background: transparent !important;
+}
+
+/*Server*/
+.visual-refresh .channelTextArea_f75fb0 {
+  background-color: var(--channeltextarea-background);
 }
 
 /*Buttons*/
@@ -152,7 +168,7 @@
 }
 
 /*Thread*/
-.container__01ae2{
+.container__01ae {
   background-color: rgba(var(--layer1),0.05);
 }
 .floating__01ae2 {
