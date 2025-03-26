@@ -27,8 +27,9 @@
   --light-dm-about: rgba(255,255,255,0.35);
   --light-background-accent: rgba(160,160,160,0.9);
   
-  /* Misc */
-  --custom-app-top-bar-height: calc(24px + var(--space-sm));
+  /* Titlebar */
+  --custom-app-top-bar-height: calc(24px + var(--space-sm)); 
+  --title-bar-icon: flex;
 }
 
 .visual-refresh.theme-dark { 
@@ -204,6 +205,9 @@
 }
 .container_e131a9 { /* VoiceChat border radius */
     border-radius: 8px;
+}
+.bar_c38106 { /* Titlebar */
+  display: var(--title-bar-icon);
 }
 
 /*meow*/
