@@ -26,7 +26,10 @@
   --light-button-font-color: black;
   --light-dm-about: rgba(255,255,255,0.35);
   --light-background-accent: rgba(160,160,160,0.9);
-  }
+  
+  /* Misc */
+  --custom-app-top-bar-height: calc(24px + var(--space-sm));
+}
 
 .visual-refresh.theme-dark { 
   --app-bg: var(--dark-bg);

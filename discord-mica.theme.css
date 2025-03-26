@@ -30,4 +30,7 @@
   --light-button-border: rgb(204, 204, 231);
   --light-button-font-color: black;
   --light-background-accent: rgba(160,160,160,0.9);
+
+  /* Misc */
+  --custom-app-top-bar-height: calc(24px + var(--space-sm)); /* Set to 0 if you don't want to use Discord title-bar */
   }
