@@ -206,7 +206,7 @@
 .container_e131a9 { /* VoiceChat border radius */
     border-radius: 8px;
 }
-.title_c38106, .leading_c38106, .winButtons_c38106 { /* Titlebar */
+.title_c38106, .leading_c38106, .trailing_c38106, .winButtons_c38106 { /* Titlebar */
   display: var(--title-bar-icon);
 }
 
