@@ -209,6 +209,10 @@
 .title_c38106, .leading_c38106, .trailing_c38106, .winButtons_c38106 { /* Titlebar */
   display: var(--title-bar-icon);
 }
+.visual-refresh .sidebarListRounded_c48ade { /* Remove sidebar backdrop-filter    WHO PUTS BACKDROP FILTER HERE?? */
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
 
 /*meow*/
 :root {
