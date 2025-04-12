@@ -36,6 +36,7 @@
   --app-bg: var(--dark-bg);
   
   /*Layer 1*/
+  --background-primary: rgba(var(--dark-layer1),0.05); /* Activity Card Empty */
   --background-surface-high: rgba(var(--dark-layer1),0.05); /* Activity Card */
   --background-secondary-alt: rgba(var(--dark-layer1),0.05);
   --input-background: rgba(var(--dark-layer1),0.05);
@@ -68,9 +69,9 @@
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
+  --background-primary: rgba(var(--light-layer1),0.7); /* Activity Card Empty */
   --background-surface-high: rgba(var(--light-layer1), 0.7); /* Activity Card */
   --background-surface-higher: rgba(var(--light-layer1), 0.4);
-  --background-primary: rgba(var(--light-layer1),0.1);
   --background-secondary-alt: rgba(var(--light-layer1), 0.1);
   --input-background: rgba(var(--light-layer1), 0.7); 
   --background-secondary: rgba(var(--light-layer1), 0.7);
