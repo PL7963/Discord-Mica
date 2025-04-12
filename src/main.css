@@ -121,7 +121,8 @@
 .footer__214dc /*Discovery*/,
 .visual-refresh .contentRegionScroller__23e6b, .visual-refresh .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b, .contentRegion__23e6b, .layer__960e4 /*Settings*/, 
 .fieldList__1fed1,
-.children__9293f:after {
+.children__9293f:after,
+.visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */ {
   background-color: transparent !important;
   background: transparent !important;
 }
