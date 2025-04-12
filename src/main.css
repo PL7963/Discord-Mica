@@ -217,6 +217,9 @@
 .panels_c48ade, .container__37e49 { /*User Profile*/ 
   background: var(--background-accent) !important;
 }
+.visual-refresh .stackedBars__74017 { /* Reply Bar */
+  background: transparent;
+}
 
 /*meow*/
 :root {
