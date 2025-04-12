@@ -38,6 +38,7 @@
   /*Layer 1*/
   --background-primary: rgba(var(--dark-layer1),0.05); /* Activity Card Empty */
   --background-surface-high: rgba(var(--dark-layer1),0.05); /* Activity Card */
+  --background-base-low: rgba(var(--dark-layer1),0.05); /* Follow channel */
   --background-secondary-alt: rgba(var(--dark-layer1),0.05);
   --input-background: rgba(var(--dark-layer1),0.05);
   --background-secondary: rgba(var(--dark-layer1),0.05);
@@ -71,6 +72,7 @@
   /* Layer 1 */
   --background-primary: rgba(var(--light-layer1),0.7); /* Activity Card Empty */
   --background-surface-high: rgba(var(--light-layer1), 0.7); /* Activity Card */
+  --background-base-low: rgba(var(--light-layer1),0.7); /* Follow channel */
   --background-surface-higher: rgba(var(--light-layer1), 0.4);
   --background-secondary-alt: rgba(var(--light-layer1), 0.1);
   --input-background: rgba(var(--light-layer1), 0.7); 
