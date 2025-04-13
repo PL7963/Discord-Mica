@@ -25,7 +25,7 @@
   --light-button-border: rgb(204, 204, 231);
   --light-button-font-color: black;
   --light-dm-about: rgba(255,255,255,0.35);
-  --light-background-accent: rgba(255,255,255,0.9);
+  --light-background-accent: rgba(160,160,160,0.9);
   
   /* Titlebar */
   --custom-app-top-bar-height: calc(24px + var(--space-sm)); 
@@ -218,7 +218,7 @@
   -webkit-backdrop-filter: none;
 }
 .panels_c48ade, .container__37e49 { /*User Profile*/ 
-  background: var(--background-accent) !important;
+  background: var(--flyout) !important;
 }
 .visual-refresh .stackedBars__74017 { /* Reply Bar */
   background: transparent;
