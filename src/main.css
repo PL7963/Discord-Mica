@@ -2,7 +2,7 @@
   /*Dark mode*/
   --dark-bg: transparent;
   --dark-layer1: 255,255,255;
-  --dark-flyout: rgb(30,30,30);
+  --dark-flyout: rgba(30,30,30);
   --dark-select: 255,255,255;
   --dark-accent: rgb(76, 194, 255);
   --dark-accent-hovered: rgb(65, 163, 214); /*also disabled button*/
@@ -12,6 +12,7 @@
   --dark-button-font-color: white;
   --dark-dm-about: rgba(0,0,0,0.4);
   --dark-background-accent: rgba(50,50,50,0.9);
+  --dark-status-panel: rgba(30,30,30,0.4);
 
   /*Light mode*/
   --light-bg: transparent;
@@ -26,6 +27,7 @@
   --light-button-font-color: black;
   --light-dm-about: rgba(255,255,255,0.35);
   --light-background-accent: rgba(160,160,160,0.9);
+  --light-status-panel: rgba(255,255,255,0.4);
   
   /* Titlebar */
   --custom-app-top-bar-height: calc(24px + var(--space-sm)); 
@@ -65,6 +67,7 @@
   --button-font-color: var(--dark-button-font-color);
   --dm-about: var(--dark-dm-about);
   --background-accent: var(--dark-background-accent);
+  --status-panel: var(--light-status-panel);
 } 
 .visual-refresh.theme-light{
   --app-bg: var(--light-bg); 
@@ -100,6 +103,7 @@
   --button-font-color: var(--light-button-font-color);
   --dm-about: var(--light-dm-about);
   --background-accent: var(--light-background-accent);
+  --status-panel: var(--light-status-panel);
 }
 
 .app__160d8,
@@ -218,7 +222,7 @@
   -webkit-backdrop-filter: none;
 }
 .panels_c48ade, .container__37e49 { /*User Profile*/ 
-  background: var(--flyout) !important;
+  background: var(--status-panel) !important;
 }
 .visual-refresh .stackedBars__74017 { /* Reply Bar */
   background: transparent;
