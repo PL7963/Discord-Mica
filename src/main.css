@@ -67,7 +67,7 @@
   --button-font-color: var(--dark-button-font-color);
   --dm-about: var(--dark-dm-about);
   --background-accent: var(--dark-background-accent);
-  --status-panel: var(--light-status-panel);
+  --status-panel: var(--dark-status-panel);
 } 
 .visual-refresh.theme-light{
   --app-bg: var(--light-bg); 
