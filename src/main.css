@@ -120,7 +120,8 @@
 #app-mount .container__2637a, .sidebar_c48ade /*Server Sidebar*/,
 .visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
 :where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
-.panels_c48ade, .container__37e49 /*User Profile*/,
+.visual-refresh .container_f369db, /* Forum */
+.panels_c48ade, .container__37e49, /*User Profile*/
 .visual-refresh .sidebar_c48ade:after,
 .footer__214dc /*Discovery*/,
 .visual-refresh .contentRegionScroller__23e6b, .visual-refresh .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b, .contentRegion__23e6b, .layer__960e4 /*Settings*/, 
