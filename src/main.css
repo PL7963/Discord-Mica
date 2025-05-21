@@ -243,3 +243,8 @@
 body{
   background-color: var(--app-bg) !important;
 }
+
+/* Fix semicolon bug */
+.app_a3002d {
+  color: transparent;
+}
