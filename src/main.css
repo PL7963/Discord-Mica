@@ -34,7 +34,7 @@
   --title-bar-icon: flex;
 }
 
-.visual-refresh.theme-dark { 
+.theme-dark { 
   --app-bg: var(--dark-bg);
   
   /*Layer 1*/
@@ -69,7 +69,7 @@
   --background-accent: var(--dark-background-accent);
   --status-panel: var(--dark-status-panel);
 } 
-.visual-refresh.theme-light{
+.theme-light{
   --app-bg: var(--light-bg); 
 
   /* Layer 1 */
