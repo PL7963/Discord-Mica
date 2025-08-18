@@ -13,7 +13,7 @@
 ## Get Started
 1. Patch your Discord with BetterDiscord or Vencord
 2. Add Discord process to MicaForEveryone and set backdrop type to Mica
-3. Enable transparency in BetterDiscord settings
+3. Enable transparency in BetterDiscord/Vencord settings
 
 That's it :D
 
