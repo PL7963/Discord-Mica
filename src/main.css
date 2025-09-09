@@ -175,7 +175,8 @@
 .container_cc2dff, .reactors_cc2dff,
 .emojiRow_e7d73e .emojiAliasInput_e7d73e .emojiInput_e7d73e,
 .main__949ab,
-.streamPreview__6da2d {
+.streamPreview__6da2d,
+.menu_c1e9c4 /* Context menu */ {
   background-color: var(--flyout);
 }
 
