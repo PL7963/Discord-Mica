@@ -126,7 +126,8 @@
 .fieldList__1fed1,
 .children__9293f:after,
 .visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
-.visual-refresh .content__908e2 /*Divider*/ {
+.visual-refresh .content__908e2 /*Divider*/,
+.chatGradient__36d07 /* Chatbox gradient */ {
   background-color: transparent !important;
   background: transparent !important;
 }
