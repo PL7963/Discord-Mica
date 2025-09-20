@@ -127,7 +127,8 @@
 .children__9293f:after,
 .visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
 .visual-refresh .content__908e2 /*Divider*/,
-.chatGradient__36d07 /* Chatbox gradient */ {
+.chatGradient__36d07 /* Chatbox gradient */,
+.container__7641b /* Thread member list */ {
   background-color: transparent !important;
   background: transparent !important;
 }
@@ -182,11 +183,8 @@
 }
 
 /*Thread*/
-.container__01ae {
+.container__01ae2 {
   background-color: rgba(var(--layer1),0.05);
-}
-.floating__01ae2 {
-  backdrop-filter: brightness(0.65) blur(16px) saturate(1.5);
 }
 
 /*Misc*/
