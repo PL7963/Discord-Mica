@@ -128,7 +128,8 @@
 .visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
 .visual-refresh .content__908e2 /*Divider*/,
 .chatGradient__36d07, .chatTypingGradientNotAtBottom__36d07, .chatTypingGradientAtBottom__36d07 /* Chatbox gradient */,
-.container__7641b /* Thread member list */ {
+.container__7641b /* Thread member list */,
+.channelChatWrapper_cb9592, .wrapper_cb9592 /* Voice Chat message panel */ {
   background-color: transparent !important;
   background: transparent !important;
 }
