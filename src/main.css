@@ -237,6 +237,9 @@
 .outer_bf1984 { /* Activity Card */
   background-color: var(--background-primary); 
 }
+.user-profile-sidebar { /* User Profile sidebar */
+  background: var(--background-primary);
+}
 
 /*meow*/
 :root {
