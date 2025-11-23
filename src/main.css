@@ -115,17 +115,17 @@
 .visual-refresh .tabBody__133bf, 
 .container__7d20c,
 .container__133bf,
-#app-mount .container__2637a, .sidebar_c48ade /*Server Sidebar*/,
+#app-mount .container__2637a, .sidebar__5e434 /*Server Sidebar*/,
 .visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
 :where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
 .visual-refresh .container_f369db, /* Forum */
-.panels_c48ade, .container__37e49, /*User Profile*/
-.visual-refresh .sidebar_c48ade:after,
+.panels__5e434, .container__37e49, /*User Profile*/
+.visual-refresh .sidebar__5e434:after,
 .scroller__23746, .container__551b0, .theme-light .gradient_e9ef78, .backdrop__8a7fc /*Discovery*/,
 .visual-refresh .contentRegionScroller__23e6b, .visual-refresh .sidebarRegionScroller__23e6b, .visual-refresh .standardSidebarView__23e6b, .contentRegion__23e6b, .layer__960e4 /*Settings*/, 
 .fieldList__1fed1,
 .children__9293f:after,
-.visual-refresh .wrapper_d852db, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
+.visual-refresh .wrapper__6c798, .visual-refresh .wrapper_fc8177 /* Skeleton loading */,
 .visual-refresh .content__908e2 /*Divider*/,
 .chatGradient__36d07, .chatTypingGradientNotAtBottom__36d07, .chatTypingGradientAtBottom__36d07 /* Chatbox gradient */,
 .container__7641b /* Thread member list */,
@@ -157,25 +157,25 @@
 }
 
 /*Toggle*/
-.container__87bf1.checked__87bf1{
+.container__3f21e.checked__3f21e{
   background-color: var(--accent) !important;
 }
-.container__87bf1.checked__87bf1:hover{
+.container__3f21e.checked__3f21e:hover{
   background-color: var(--accent-hovered) !important;
 }
 
 /*Special Flyout*/
-.messagesPopoutWrap__45690,
+.messagesPopoutWrap_e8b59c,
 .container__2692d,
 .container_fc561d,
 .contentWrapper__08434,
 .header_fed6d3,
-.wrapper__4e6ce,
+.wrapper__4106a,
 .popout__3f413,
 .wrapper_c0e32c,
 .quickswitcher_ac6cb0,
 .vc-notification-root,
-.container_cc2dff, .reactors_cc2dff,
+.container_b7f4b4, .reactors_b7f4b4,
 .emojiRow_e7d73e .emojiAliasInput_e7d73e .emojiInput_e7d73e,
 .main__949ab,
 .streamPreview__6da2d,
@@ -222,7 +222,7 @@
   backdrop-filter: none;
   -webkit-backdrop-filter: none;
 }
-.panels_c48ade, .container__37e49 { /*User Profile*/ 
+.panels__5e434, .container__37e49 { /*User Profile*/ 
   background: var(--status-panel) !important;
 }
 .visual-refresh .stackedBars__74017 { /* Reply Bar */
