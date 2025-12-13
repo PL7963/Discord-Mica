@@ -108,14 +108,15 @@
 .bg__960e4,
 .appMount__51fd7,
 .wrapper_ef3116,
-.visual-refresh .chat_f75fb0,
-.chatContent_f75fb0, /*Server Chat*/
-.scroller__99e7c, .privateChannels_e6b769, /*DMs Sidebar*/
-.themed__9293f, .nowPlayingColumn__133bf, /*DMs misc*/
+._133bf5eea8e33a34-container, ._133bf5eea8e33a34-tabBody, ._960e4207cea8323e-bg, ._160d8e55254637e5-app, ._51fd70792ee2e563-appMount, /* BASE */
+.f75fb00fb7356cbe-chat,
+.f75fb00fb7356cbe-chatContent, /*Server Chat*/
+.scroller__99e7c, .privateChannels_e6b769, ._99e7cad8d4c55236-scroller, .e6b7699ce8339e1c-privateChannels, /*DMs Sidebar*/
+._7d20cf18f8a2784c-container, ._133bf5eea8e33a34-nowPlayingColumn, ._9293f6b2fc12398a-themed /*DMs misc*/
 .visual-refresh .tabBody__133bf, 
 .container__7d20c,
 .container__133bf,
-#app-mount .container__2637a, .sidebar__5e434 /*Server Sidebar*/,
+._2637a2609f343032-container, .sidebar__5e434, .ef3116c2da186559-wrapper /*Server Sidebar*/,
 .visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
 :where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
 .visual-refresh .container_f369db, /* Forum */
