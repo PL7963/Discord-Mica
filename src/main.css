@@ -114,12 +114,12 @@
 .visual-refresh .chat_f75fb0,
 .chatContent_f75fb0, /*Server Chat (old version)*/
 .scroller__99e7c, .privateChannels_e6b769, ._99e7cad8d4c55236-scroller, .e6b7699ce8339e1c-privateChannels, /*DMs Sidebar*/
-._7d20cf18f8a2784c-container, ._133bf5eea8e33a34-nowPlayingColumn, ._9293f6b2fc12398a-themed /*DMs misc*/
+._7d20cf18f8a2784c-container, ._133bf5eea8e33a34-nowPlayingColumn, ._9293f6b2fc12398a-themed, /*DMs misc*/
 .themed__9293f, .nowPlayingColumn__133bf, /*DMs misc (old version)*/
 .visual-refresh .tabBody__133bf, 
 .container__7d20c,
 .container__133bf,
-._2637a2609f343032-container, .sidebar__5e434, .ef3116c2da186559-wrapper /*Server Sidebar*/,
+._2637a2609f343032-container, .sidebar__5e434, .ef3116c2da186559-wrapper, /*Server Sidebar*/
 #app-mount .container__2637a, /*Server Sidebar (old version)*/
 .visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
 :where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
