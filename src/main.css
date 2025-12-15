@@ -104,6 +104,13 @@
   --status-panel: var(--light-status-panel);
 }
 
+/* Old UI */
+.visual-refresh .chat_f75fb0,
+.chatContent_f75fb0, /*Server Chat*/
+.scroller__99e7c, .privateChannels_e6b769, /*DMs Sidebar*/
+.themed__9293f, .nowPlayingColumn__133bf, /*DMs misc*/
+#app-mount .container__2637a, .sidebar__5e434 /*Server Sidebar*/,
+/* Old UI */
 .app__160d8,
 .bg__960e4,
 .appMount__51fd7,
