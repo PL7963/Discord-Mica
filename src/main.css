@@ -241,6 +241,9 @@
 .user-profile-sidebar { /* User Profile sidebar */
   background: var(--background-primary);
 }
+._623de82e76ad7f82-embedFull { /* Embed */
+  background: var(--background-primary);
+}
 
 /*meow*/
 :root {
