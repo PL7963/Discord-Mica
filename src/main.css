@@ -115,7 +115,7 @@
 .container__7d20c, .nowPlayingColumn__133bf, .themed__9293f, /*DMs misc*/
 .container__7d20c,
 .container__133bf,
-.container__2637a, .sidebar__5e434, .wrapper_ef3116 /*Server Sidebar*/,
+.container__2637a, .sidebar__5e434, .sidebar__5e434:after, .wrapper_ef3116 /*Server Sidebar*/,
 .visual-refresh .clickable_f37cb1, .visual-refresh .hasBanner_f37cb1 .header_f37cb1, /*Server name*/
 :where(.visual-refresh) .themedBackground__74017, /*Server Textarea*/
 .visual-refresh .container_f369db, /* Forum */
