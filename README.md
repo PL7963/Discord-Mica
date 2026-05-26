@@ -11,16 +11,19 @@
 * ![MicaForEveryone](https://github.com/MicaForEveryone/MicaForEveryone) (For Mica backdrop)
 
 ## Get Started
-1. Patch your Discord with BetterDiscord or Vencord
-2. Add Discord process to MicaForEveryone and set backdrop type to Mica
-3. Enable transparency in BetterDiscord/Vencord settings
+### For BetterDiscord
+1. Add Discord process to MicaForEveryone and set backdrop type to Mica
+2. Enable transparency in BetterDiscord settings
+
+### For Vencord
+1. Select Mica material at the bottom of Vencord settings **(Transparency option is not required, enabling transparency will make Discord missing window animation)**
+2. Restart Discord
 
 That's it :D
 
 ## Note
 * You could use any backdrop material, like Acrylic, with a Discord-Mica theme. However, this is not recommended since Acrylic is a transparent material, which blurs the contents behind windows. This can be performance-heavy and cause visibility issues. Acrylic should only be used in small areas.
 * Both Mica and Mica Tabbed are tested recommended.
-* I don't recommend enabling the blur-behind feature. Mica does a great job creating contrast between background and foreground elements. However, with certain backgrounds, it can still cause visibility issues and is also performance-intensive, similar to Acrylic.
 * The screenshot I took above is actually Mica tabbed. I did not realize I was using Mica tabbed when I was writing this theme. And I was trying to replicate Mica look. If you want to get a similar appearance you can use the dark-bg values in the comments
 * You may want to add more blur effects with a backdrop filter, but when transparency is enabled, backdrop-filter breaks. I recommend tweaking colors to make elements fit into the wallpaper, instead of using transparent elements without blur.
 * **Mica with WinDynamicWallpaper is AWESOME**
